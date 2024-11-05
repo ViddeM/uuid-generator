@@ -1,0 +1,10 @@
+[package]
+name = "uuid-generator"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+arboard = "3.4.0"
+clap = { version = "4.5.17", features = ["derive", "env"] }
+eyre = "0.6.12"
+uuid = { version = "1.10.0", features = ["v4"] }
